@@ -1,0 +1,207 @@
+---
+import Layout from '../layouts/layout.astro';
+---
+
+<Layout>
+    <h1>Asia</h1>
+    <section>
+        <article class="gridImages_1">
+            <div class="four"><h3>China</h3></div>
+            <img src="/spain_1.jpg" alt="" class="one" />
+            <img src="/spain_2.jpg" alt="" class="two" />
+            <img src="/spain_3.jpg" alt="" class="three" />
+            <img src="/spain_5.jpg" alt="" class="five" />
+            <img src="/spain_6.jpg" alt="" class="six" />
+            <img src="/spain_4.jpg" alt="" class="seven" />
+        </article>
+        <article class="gridImages_2">
+            <div class="four_"><h3>Japan</h3></div>
+            <img src="/spain_1.jpg" alt="" class="one_" />
+            <img src="/spain_2.jpg" alt="" class="two_" />
+            <img src="/spain_3.jpg" alt="" class="three_" />
+            <img src="/spain_5.jpg" alt="" class="five_" />
+            <img src="/spain_6.jpg" alt="" class="six_" />
+            <img src="/spain_4.jpg" alt="" class="seven_" />
+        </article>
+    </section>
+</Layout>
+<style>
+    * {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        margin: 2rem 0;
+    }
+
+    .gridImages_1 {
+        padding: 40px 20px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(4, minmax(50px, 1fr));
+        grid-template-rows: repeat(3, 200px);
+        gap: 1rem;
+        width: 100%;
+        max-width: 950px;
+    }
+    .one {
+        object-fit: cover;
+        grid-column: 1;
+        grid-row: 1 / 3;
+        background-color: red;
+        width: 100%;
+        height: 100%;
+        border-radius: 24px;
+    }
+    .two {
+        object-fit: cover;
+        grid-column: 2 / 4;
+        grid-row: 1;
+        background-color: red;
+        width: 100%;
+        height: 100%;
+        border-radius: 24px;
+    }
+    .three {
+        object-fit: cover;
+        grid-column: 4;
+        grid-row: 1;
+        background-color: red;
+        width: 100%;
+        height: 100%;
+        border-radius: 24px;
+    }
+    .four {
+        align-items: center;
+        justify-content: center;
+        grid-column: 2;
+        grid-row: 2;
+        background-color: rgb(251, 205, 112);
+        width: 100%;
+        height: 100%;
+        border-radius: 24px;
+    }
+    .five {
+        object-fit: cover;
+        grid-column: 3 / 5;
+        grid-row: 2;
+        background-color: red;
+        width: 100%;
+        height: 100%;
+        border-radius: 24px;
+    }
+    .six {
+        object-fit: cover;
+        grid-column: 1;
+        grid-row: 3;
+        background-color: red;
+        width: 100%;
+        height: 100%;
+        border-radius: 24px;
+    }
+    .seven {
+        object-fit: cover;
+        grid-column: 2 / 5;
+        grid-row: 3;
+        background-color: red;
+        width: 100%;
+        height: 100%;
+        border-radius: 24px;
+    }
+
+    .gridImages_2 {
+        padding: 40px 20px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(3, minmax(80px, 1fr));
+        grid-template-rows: repeat(4, 200px);
+        gap: 1rem;
+        width: 100%;
+        max-width: 950px;
+    }
+    .one_ {
+        object-fit: cover;
+        grid-column: 1;
+        grid-row: 1 / 3;
+        width: 100%;
+        height: 100%;
+        border-radius: 24px;
+    }
+    .two_ {
+        object-fit: cover;
+        grid-column: 2;
+        grid-row: 1 / 3;
+        width: 100%;
+        height: 100%;
+        border-radius: 24px;
+    }
+    .three_ {
+        object-fit: cover;
+        grid-column: 3;
+        grid-row: 1 / 3;
+        width: 100%;
+        height: 100%;
+        border-radius: 24px;
+    }
+    .four_ {
+        align-items: center;
+        justify-content: center;
+        grid-column: 2;
+        grid-row: 3;
+        background-color: rgb(251, 205, 112);
+        width: 100%;
+        height: 100%;
+        border-radius: 24px;
+    }
+    .five_ {
+        object-fit: cover;
+        grid-column: 1;
+        grid-row: 3 / 5;
+        width: 100%;
+        height: 100%;
+        border-radius: 24px;
+    }
+    .six_ {
+        object-fit: cover;
+        grid-column: 2;
+        grid-row: 4;
+        width: 100%;
+        height: 100%;
+        border-radius: 24px;
+    }
+    .seven_ {
+        object-fit: cover;
+        grid-column: 3;
+        grid-row: 3 / 5;
+        width: 100%;
+        height: 100%;
+        border-radius: 24px;
+    }
+
+    @media (max-width: 720px) {
+        .gridImages_1 {
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(7, 200px);
+        }
+        .one, .two, .three, .four, .five, .six, .seven {
+            grid-row: auto;
+            grid-column: auto;  
+        }
+        .gridImages_2 {
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(7, 200px);
+        }
+        .one_, .two_, .three_, .four_, .five_, .six_, .seven_ {
+            grid-row: auto;
+            grid-column: auto;  
+        }
+        
+    }
+</style>

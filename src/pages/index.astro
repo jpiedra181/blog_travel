@@ -1,0 +1,54 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<img src="/hero-image.jpg" alt="">
+			<h1>🌍 Hello, Traveler!</h1>
+			<p>
+				I was supposed to catch a train to Rome at 10:15. I remember checking the time as I sipped the last bit of my espresso — 10:12. Three minutes. I thought I could make it. Spoiler: I didn’t.
+			</p>
+			<p>
+				The platform was empty by the time I got there. No train. No people. Just me, slightly out of breath and laughing to myself like an idiot. I had no plan, no hotel booked, and no idea what to do next.
+			</p>
+			<p>
+				So I did what any traveler without a schedule would do — I wandered.
+			</p>
+			<p>
+				Florence is a city that rewards getting lost. I ended up in a quiet part of town, far from the crowds and selfie sticks. The streets were narrow, lined with laundry flapping in the breeze, scooters leaning against walls, and the occasional cat watching from a window.
+			</p>
+			<p>
+				And then I smelled something — garlic, tomato, fresh herbs. I followed it like a cartoon character floating through the air, and it led me to this little trattoria I would’ve never found on a map.
+			</p>
+			<p>
+				There was no English menu. The waiter didn’t speak much English either. But somehow, we understood each other. I ordered “whatever’s best today,” and what arrived was a plate of the softest, most comforting gnocchi I’ve ever had. The kind that makes you close your eyes after the first bite.
+			</p>
+			<p>
+				I stayed for two hours. Ate slowly. Drank wine. Talked with the chef’s daughter, who sat down with me during her break. We laughed, traded travel stories, and tried to guess each other’s favorite foods using hand gestures and Google Translate.
+			</p>
+			<p>
+				By the time I left, I didn’t feel like I’d missed a train. I felt like I’d found something — a moment I wouldn’t forget.
+			</p>
+			<p>
+				That’s what travel does. It surprises you when you're not looking. This blog is where I keep those little surprises — the missed trains that became the best part of the trip.
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
+
+<style>
+	img {
+		margin-bottom: 1rem;
+	}
+</style>

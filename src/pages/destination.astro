@@ -1,0 +1,105 @@
+---
+import Layout from '../layouts/layout.astro';
+import HeaderLink from '../components/HeaderLink.astro';
+---
+
+<Layout>
+    <section class="destination">
+        <section class="firstContinent">
+            <HeaderLink href="/europe">
+                <img width={900} height={360} src="/europe.jpg" alt="" />
+                <h4 class="title">Europe</h4>
+            </HeaderLink>
+        </section>
+        <section class="restContinents">
+            <HeaderLink href="/asia">
+                <img width={450} height={220} src="/asia.jpg" alt="" />
+                <h4 class="title">Asia</h4>
+            </HeaderLink>
+            <HeaderLink href="/oceania">
+                <img width={450} height={220} src="/australia.png" alt="" />
+                <h4 class="title">Oceania</h4>
+            </HeaderLink>
+            <HeaderLink href="/africa">
+                <img width={450} height={220} src="/africa.jpg" alt="" />
+                <h4 class="title">Africa</h4>
+            </HeaderLink>
+            <HeaderLink href="/america">
+                <img width={450} height={220} src="/america.png" alt="" />
+                <h4 class="title">America</h4>
+            </HeaderLink>
+        </section>
+    </section>
+</Layout>
+
+<style>
+    .destination {
+        padding: 2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .firstContinent {
+        width: 100%;
+        max-width: 900px;
+        border-radius: 12px;
+        overflow: hidden;
+        background-color: rgb(var(--gray-dark));
+    }
+
+    .firstContinent:hover {
+        box-shadow: var(--box-shadow);
+    }
+
+    .firstContinent img {
+        display: block;
+        width: 100%;
+        border-radius: 12px;
+    }
+
+    .title {
+        padding: 1em;
+        text-align: center;
+        background-color: rgb(var(--gray-dark));
+        color: white;
+        margin: 0;
+    }
+
+    .restContinents {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 2rem;
+        width: 100%;
+        max-width: 900px;
+    }
+
+    .restContinents a {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        border-radius: 12px;
+        overflow: hidden;
+        background-color: rgb(var(--gray-dark));
+    }
+
+    .restContinents a:hover {
+        box-shadow: var(--box-shadow);
+    }
+
+    .restContinents img {
+        display: block;
+        width: 100%;
+        border-radius: 12px;
+    }
+
+    .restContinents .title {
+        padding: 0.5em;
+        text-align: center;
+        background-color: rgb(var(--gray-dark));
+        color: white;
+        margin: 0;
+    }
+</style>
+	
