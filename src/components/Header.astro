@@ -8,9 +8,13 @@ import { SITE_TITLE } from '../consts';
 		<h2><a href="/">{SITE_TITLE}</a></h2>
 		<div class="internal-links">
 			<HeaderLink href="#">Home</HeaderLink>
-			<HeaderLink href="pages/blog">Blog</HeaderLink>
-			<HeaderLink href="pages/destination">Destinations</HeaderLink>
-			<HeaderLink href="pages/about">About</HeaderLink>
+			<a href="about.astro">About</a>
+			<a href="/src/pages/about">About</a>
+			<a href="./src/pages/about">About</a>
+			<a href="/about">About</a>
+			<HeaderLink href="blog">Blog</HeaderLink>
+			<HeaderLink href="destination">Destinations</HeaderLink>
+			<HeaderLink href="about">About</HeaderLink>
 		</div>
 		<div class="social-links">
 			<svg viewBox="0 0 16 16" aria-hidden="true" width="32" height="32"
