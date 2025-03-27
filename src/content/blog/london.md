@@ -2,6 +2,7 @@
 title: "London’s Quiet Corners"
 description: "A different kind of London — slower, softer, and unexpectedly personal"
 pubDate: 'March 5 2025'
+postImage: '../../img/london.png'
 heroImage: '../img/london.jpg'
 ---
 

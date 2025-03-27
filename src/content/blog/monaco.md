@@ -2,6 +2,7 @@
 title: "Monaco. Glimpses of Glamour and a Sandwich by the Sea"
 description: "Not quite my lifestyle… but still a wild and beautiful detour"
 pubDate: 'September 3 2024'
+postImage: '../../img/monaco_.png'
 heroImage: '../img/monaco_.png'
 ---
 

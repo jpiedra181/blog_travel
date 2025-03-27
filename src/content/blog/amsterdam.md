@@ -2,6 +2,7 @@
 title: "Rainy Days in Amsterdam"
 description: "Canals, coffee shops, and why grey skies can still be golden"
 pubDate: 'January 21 2025'
+postImage: '../../img/amsterdam_.png'
 heroImage: '../img/amsterdam_.png'
 ---
 

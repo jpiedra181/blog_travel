@@ -2,6 +2,7 @@
 title: "Venice in Slow Motion: Getting Lost on Purpose"
 description: "No cars, no rush, no straight lines — just drifting through a living painting"
 pubDate: 'October 18 2024'
+postImage: '../../img/venice_.png'
 heroImage: '../img/venice_.png'
 ---
 

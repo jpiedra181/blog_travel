@@ -2,6 +2,7 @@
 title: "A Weekend in Barcelona"
 description: "Tapas, Gaudí, and Mediterranean vibes"
 pubDate: 'March 20 2025'
+postImage: '../../img/barcelona_.png'
 heroImage: '../img/barcelona_.png'
 ---
 

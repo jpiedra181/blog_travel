@@ -2,6 +2,7 @@
 title: "New York in Fragments: A City That Doesn’t Stop"
 description: "Noise, light, chaos — and somehow, peace in the middle of it"
 pubDate: 'February 23 2025'
+postImage: '../../img/new-york.png'
 heroImage: '../img/new-york.jpg'
 ---
 
