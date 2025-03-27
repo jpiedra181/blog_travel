@@ -2,7 +2,7 @@
 title: "Monaco. Glimpses of Glamour and a Sandwich by the Sea"
 description: "Not quite my lifestyle… but still a wild and beautiful detour"
 pubDate: 'September 3 2024'
-heroImage: 'img/monaco_.png'
+heroImage: '../img/monaco_.png'
 ---
 
 I didn’t exactly *plan* to visit Monaco. It was more of a “why not?” situation — I was nearby, the weather was good, and the train ticket was cheap.

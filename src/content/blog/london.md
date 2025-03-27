@@ -2,7 +2,7 @@
 title: "London’s Quiet Corners"
 description: "A different kind of London — slower, softer, and unexpectedly personal"
 pubDate: 'March 5 2025'
-heroImage: 'img/london.jpg'
+heroImage: '../img/london.jpg'
 ---
 
 I didn’t go up the London Eye. I didn’t take a photo with a guard. I didn’t even go inside Buckingham Palace.
