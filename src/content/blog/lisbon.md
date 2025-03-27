@@ -2,7 +2,7 @@
 title: "Walking Through Lisbon"
 description: "Steep hills, yellow trams, and soul"
 pubDate: 'March 17 2025'
-postImage: '../../img/lisbon.png'
+postImage: '../../img/lisbon.jpg'
 heroImage: '../img/lisbon.jpg'
 ---
 
