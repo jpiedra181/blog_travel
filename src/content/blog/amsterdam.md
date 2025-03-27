@@ -2,7 +2,7 @@
 title: "Rainy Days in Amsterdam"
 description: "Canals, coffee shops, and why grey skies can still be golden"
 pubDate: 'January 21 2025'
-heroImage: '/amsterdam_.png'
+heroImage: 'img/amsterdam_.png'
 ---
 
 I arrived in Amsterdam on a grey Thursday afternoon — light drizzle, low clouds, and that damp feeling in the air that makes everything smell like rain and earth. Normally, that would put me off. But in Amsterdam, it just felt... right.

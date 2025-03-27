@@ -2,7 +2,7 @@
 title: "Walking Through Lisbon"
 description: "Steep hills, yellow trams, and soul"
 pubDate: 'March 17 2025'
-heroImage: '/lisbon.jpg'
+heroImage: 'img/lisbon.jpg'
 ---
 
 Lisbon is built on hills, but it has a way of lifting your mood, not your legs.
