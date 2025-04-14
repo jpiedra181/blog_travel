@@ -31,13 +31,36 @@ import { SITE_TITLE } from '../consts';
 </header>
 
 <!-- Calling JavaScript file to implement dropdown button -->
- <script src="script/dropdown_menu.js" defer></script>
+ <script defer>
+	const destBtn = document.getElementById('destBtn')
+	const dropdown = document.getElementById('dropdown')
+
+	if(dropdown.classList.contains('isActive')) {
+
+	}
+
+	destBtn.addEventListener('click', () => {
+		if(dropdown.classList.contains('isActive')) {
+			dropdown.style.display = 'none'
+			dropdown.classList.remove('isActive')
+		} else {
+			dropdown.style.display = 'block'
+			dropdown.classList.add('isActive')
+		}
+	})
+ </script>
 
 <style>
-	#dropdown_menu{
+	#dropdown_menu {
 		position: relative;
+		display: inline-block;
 	}
-	#dropdown{
+	#destBtn {
+		background: transparent;
+		border: none;
+		font-size: 1em;
+	}
+	#dropdown {
 		display: none;
 		position: absolute;
 		background-color: white;
@@ -47,6 +70,9 @@ import { SITE_TITLE } from '../consts';
 		border-radius: 12px;
 		flex-direction: column;
 		gap: 6px;
+	}
+	#dropdown li {
+		text-decoration: none;
 	}
 	header {
 		margin: 0;
