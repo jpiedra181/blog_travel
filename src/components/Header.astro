@@ -13,12 +13,41 @@ import { SITE_TITLE } from '../consts';
 			<a href="https://jpiedra181.github.io/blog_travel/blog">Blog</a>
 			<!-- <HeaderLink href="destination">Destinations</HeaderLink> -->
 			<a href="https://jpiedra181.github.io/blog_travel/destination">Destinations</a>
+			<!-- Dropdown Link -->
+			<div id="dropdown_menu">
+				<button id="destBtn">Destination</button>			  
+				<ul id="dropdown">
+				  <li><a href="https://jpiedra181.github.io/blog_travel/destination/europe/">Europe</a></li>
+				  <li><a href="https://jpiedra181.github.io/blog_travel/destination/africa/">Africa</a></li>
+				  <li><a href="https://jpiedra181.github.io/blog_travel/destination/asia/">Asia</a></li>
+				  <li><a href="https://jpiedra181.github.io/blog_travel/destination/america/">America</a></li>
+				  <li><a href="https://jpiedra181.github.io/blog_travel/destination/oceania/">Oceania</a></li>
+				</ul>
+			  </div>
 			<!-- <HeaderLink href="about">About</HeaderLink> -->
 			<a href="https://jpiedra181.github.io/blog_travel/about">About</a>
 		</div>
 	</nav>
 </header>
+
+<!-- Calling JavaScript file to implement dropdown button -->
+ <script src="script/dropdown_menu.js" defer></script>
+
 <style>
+	#dropdown_menu{
+		position: relative;
+	}
+	#dropdown{
+		display: none;
+		position: absolute;
+		background-color: white;
+		color: black;
+		margin-top: 8px;
+		padding: 8px;
+		border-radius: 12px;
+		flex-direction: column;
+		gap: 6px;
+	}
 	header {
 		margin: 0;
 		padding: 1em 1em;
