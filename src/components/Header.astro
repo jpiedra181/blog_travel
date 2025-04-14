@@ -11,8 +11,6 @@ import { SITE_TITLE } from '../consts';
 			<a href="https://jpiedra181.github.io/blog_travel/">Home</a>
 			<!-- <HeaderLink href="blog">Blog</HeaderLink> -->
 			<a href="https://jpiedra181.github.io/blog_travel/blog">Blog</a>
-			<!-- <HeaderLink href="destination">Destinations</HeaderLink> -->
-			<a href="https://jpiedra181.github.io/blog_travel/destination">Destinations</a>
 			<!-- Dropdown Link -->
 			<div id="dropdown_menu">
 				<button id="destBtn">Destination</button>			  
@@ -71,8 +69,12 @@ import { SITE_TITLE } from '../consts';
 		flex-direction: column;
 		gap: 6px;
 	}
-	#dropdown li {
+	#dropdown li a {
 		text-decoration: none;
+	}
+	#dropdown li a:hover {
+		background-color: rgb(72, 72, 72);
+		color: white;
 	}
 	header {
 		margin: 0;
